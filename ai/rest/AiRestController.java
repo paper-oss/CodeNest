@@ -1,7 +1,7 @@
-package com.github.paicoding.forum.web.front.ai.rest;
+package com.github.codenest.forum.web.front.ai.rest;
 
 
-import com.github.paicoding.forum.service.ai.service.AiDoubaoService;
+import com.github.codenest.forum.service.ai.service.AiDoubaoService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
