@@ -25,7 +25,7 @@
 
 ## 📂 项目结构
 
-src/main/java/com/github/xxx/recommend/
+src/main/java/com/github/xxx/recommend/ 
 ├── controller/ # 提供 REST API
 │ ├── AiRestController.java
 │ └── ArticleRecommendRestController.java
