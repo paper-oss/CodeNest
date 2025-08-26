@@ -1,9 +1,9 @@
-package com.github.paicoding.forum.web.front.ai.rest;
+package com.github.codenest.forum.web.front.ai.rest;
 
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.github.paicoding.forum.service.article.service.ArticleRecommendService;
+import com.github.codenest.forum.service.article.service.ArticleRecommendService;
 import lombok.extern.slf4j.Slf4j;
 import org.elasticsearch.search.SearchHits;
 import org.springframework.beans.factory.annotation.Autowired;
