@@ -14,21 +14,11 @@
 ---
 
 ## 🛠️ 技术栈
-- **Java 17**
-- **Spring Boot 3.x**
+- **Java 8**
+- **Spring Boot 2.7**
 - **SentenceTransformer**（Python 依赖，可通过 REST API 调用）  
 - **Qdrant**（向量数据库）
 - **Elasticsearch**（关键词检索）
 - **Maven**（项目管理与依赖）
 
----
 
-## 📂 项目结构
-
-src/main/java/com/github/xxx/recommend/ 
-- **├── controller/** # 提供 REST API
-- **│ ├── AiRestController.java**
-- **│ └── ArticleRecommendRestController.java**
-- **├── service/** # 核心推荐逻辑
-- **├── repository/** # 与 Qdrant / Elasticsearch 交互
-- **└── model/** # 实体类与请求响应模型
